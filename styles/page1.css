@@ -41,7 +41,7 @@ body {
     align-items: center;
     width: 100%;
     height: 520px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("http://gogreenthriftstore.com/59/wp-content/uploads/2021/02/Bryans-Road-Interior_1640x781-1024x488.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -56,6 +56,33 @@ body {
     margin: 0;
   }
 
+  .about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+  }
+
+  .about-me img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .about-me-text h2 {
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .about-me-text p {
+    font-size: 15px;
+    color: #585858;
+    margin: 10px 0;
+  }
 
   /* CSS for footer */
   .footer {
